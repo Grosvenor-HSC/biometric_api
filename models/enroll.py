@@ -17,8 +17,6 @@ class ReenrolIn(BaseModel):
     enrollmentId: int
     templateBase64: str
     clientLocalTime: str | None = None
-    siteId: str
-    deviceId: str
 
 class ReenrolOut(BaseModel):
     enrollmentId: int
